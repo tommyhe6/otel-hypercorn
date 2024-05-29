@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "otel-hypercorn"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+opentelemetry-distro = "^0.45b0"
+hypercorn = "^0.17.3"
+opentelemetry-exporter-otlp = "^1.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
